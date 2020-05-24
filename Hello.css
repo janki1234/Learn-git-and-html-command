@@ -1,0 +1,14 @@
+h1{
+	font-family: verdana;
+}
+h2{
+	font-weight: bold;
+}
+h3{
+	font-style: italic;
+}
+p{
+	color: red;
+	background-color: skyblue;
+
+}
