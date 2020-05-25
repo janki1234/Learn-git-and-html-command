@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive page</title>
+	<style>
+		p{
+			font-size: 25px;
+		}
+		@media print{
+			.screen-only{
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Responsive page</h1>
+	<p>In this page, we see how to print particular content.</p>
+	<p class="screen-only">This line not printed if you print this page.</p>
+</body>
+</html>
